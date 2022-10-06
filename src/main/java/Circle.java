@@ -19,6 +19,9 @@ public class Circle
     public Circle()
     {
         // TODO - replace this line with your code
+        x = 0;
+        y = 0;
+        radius = 1;
     }
 
     /**
@@ -29,6 +32,10 @@ public class Circle
      */
     public Circle(double radius)
     {
+        x = 0;
+        y = 0;
+        this.radius = radius;
+        //Circle c = new Circle(10);
         // TODO - replace this line with your code
     }
 
@@ -42,6 +49,11 @@ public class Circle
      */
     public Circle(double x, double y, double radius)
     {
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+        //Circle d + new Circle(5,10,200);
+
         // TODO - replace this line with your code
     }
 
@@ -53,6 +65,7 @@ public class Circle
      */
     public double getRadius()
     {
+        return radius;
         // TODO - replace this line with your code
     }
 
@@ -63,6 +76,7 @@ public class Circle
      */
     public double getX()
     {
+        return x;
         // TODO - replace this line with your code
     }
 
@@ -73,6 +87,8 @@ public class Circle
      */
     public double getY()
     {
+        return y;
+        //System.out.println(d.getRadius());
         // TODO - replace this line with your code
     }
 
@@ -84,6 +100,7 @@ public class Circle
      */
     public void setRadius(double radius)
     {
+        this.radius = radius;
         // TODO - replace this line with your code
     }
 
@@ -94,6 +111,7 @@ public class Circle
      */
     public void setX(double x)
     {
+        this.x = x;
         // TODO - replace this line with your code
     }
 
@@ -104,6 +122,7 @@ public class Circle
      */
     public void setY(double y)
     {
+        this.y = y;
         // TODO - replace this line with your code
     }
 
